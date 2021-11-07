@@ -1,0 +1,1016 @@
+/* Reset CSS
+----------------------> */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.wrap {
+    min-width: 1440px;
+    margin: 0 auto;
+    min-height: 200vh;
+    font-family: Montserrat;
+    font-style: normal;
+}
+
+.container {
+    width: 78%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+/* Header
+----------------------> */
+
+.header {
+    background: chartreuse;
+    width: 1440px;
+    height: 652px;
+    background: url('../assets/header/girl.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -130px;
+}
+
+/* Navigation menu
+----------------------> */
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-left: 27px;
+    width: 647px;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px;
+    margin-left: 116px;
+    padding-right: 45px;
+    width: 333px;
+    height: 57px;
+    text-decoration: none;
+}
+
+.text__nav-bar {
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.avatar {
+    height: 56px;
+    width: 56px;
+}
+
+.shopping-cart {
+    width: 56px;
+    height: 56px;
+}
+
+.heart {
+    width: 32px;
+    height: 32px;
+}
+
+.img-logo {
+    padding-top: 32px;
+    padding-left: 65px;
+}
+
+
+.header-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+}
+
+
+.header-text__data {
+    padding-bottom: 12px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+
+.header-text__title {
+    padding-bottom: 12px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    color: #FFFFFF;
+}
+
+
+.header-text__subtitle {
+    padding-bottom: 12px;
+    font-weight: 500;
+    font-size: 20.4651px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+
+
+.header-button {
+    width: 179px;
+    height: 56px;
+}
+
+
+.header-button__text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #2091F9;
+}
+
+.clother-type {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 1130px;
+    height: 469px;
+    margin-top: 49px;
+    margin-left: 155px;
+    margin-right: 155px;
+    margin-bottom: 49px;
+    text-decoration: none;
+}
+
+.clother-type__hat {
+    width: 370px;
+    height: 220px;
+    background: url('../assets/content/hat.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 230px;
+}
+
+
+
+.clother-type__hat__text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-right: 133px;
+    margin-left: 133px;
+    width: 95px;
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.clother-type__shoes {
+    width: 370px;
+    height: 220px;
+    background: url('../assets/content/shoes.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 230px;
+}
+
+.clother-type__shoes__text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-right: 133px;
+    margin-left: 133px;
+    width: 95px;
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.clother-type__dress {
+    width: 310px;
+    height: 468px;
+    background: url('../assets/content/dress.png');
+    background-size: cover;
+}
+
+.clother-type__dress__text {
+    margin-top: 207px;
+    margin-bottom: 207px;
+    margin-right: 85.5px;
+    margin-left: 85.5px;
+    width: 138px;
+    height: 54px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.clother-type__bags {
+    width: 370px;
+    height: 220px;
+    background: url('../assets/content/bag.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 230px;
+}
+
+.clother-type__bags__text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 24px;
+    padding-right: 30px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-right: 133px;
+    margin-left: 133px;
+    width: 95px;
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+.clother-type__clothes {
+    width: 370px;
+    height: 220px;
+    background: url('../assets/content/t-shirt.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 230px;
+}
+
+.clother-type__clothes__text {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 7px;
+    padding-right: 30px;
+    margin-top: 83px;
+    margin-bottom: 83px;
+    margin-right: 133px;
+    margin-left: 133px;
+    width: 95px;
+    height: 54px;
+    border: 1px solid rgba(255, 255, 255, 1);
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.recommendations {
+    height: 846px;
+}
+
+.recommendations__title {
+    text-align: center;
+
+}
+
+.selected {
+    color: rgba(32, 145, 249, 1);
+}
+
+.recommendations__line {
+    border: 2px solid rgba(32, 145, 249, 1);
+    background: rgba(32, 145, 249, 1);
+}
+
+.recommendations__list {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+
+.recommendations__list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1088px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-right: 176px;
+    margin-left: 176px;
+    display: flex;
+}
+
+.girl__background__title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #252B42;
+}
+
+.desk {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #BDBDBD;
+}
+
+.coast {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    color: #252B42;
+}
+
+.girl__green__background {
+    width: 242px;
+    height: 627px;
+}
+
+.future-girl_green_background {
+    width: 242px;
+    height: 414px;
+    background: url('../assets/products/girl-in-red-dress.png');
+    background-size: cover;
+    border-radius: 5%;
+
+}
+
+.girl__white__background {
+    width: 242px;
+    height: 627px;
+}
+
+.future_girl_white_background {
+    width: 242px;
+    height: 414px;
+    background: url('../assets/products/girl-in-white-dress.png');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.girl__blue__background {
+    width: 242px;
+    height: 627px;
+}
+
+.future_girl_blue_background {
+    width: 242px;
+    height: 414px;
+    background: url('../assets/products/girl-with-brown-hair.png');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+.girl__brown__background {
+    width: 242px;
+    height: 627px;
+}
+
+.future_girl_brown_background {
+    width: 242px;
+    height: 414px;
+    background: url('../assets/products/girl-with-glasses.png');
+    background-size: cover;
+    border-radius: 5%;
+}
+
+
+
+
+.girl__color {
+    width: 145px;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.circle__blue {
+    width: 30px;
+    height: 30px;
+    background: rgba(32, 145, 249, 1);
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.circle__green {
+    width: 30px;
+    height: 30px;
+    background: rgba(45, 192, 113, 1);
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.circle__orange {
+    width: 30px;
+    height: 30px;
+    background: rgba(231, 124, 64, 1);
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.circle__black {
+    width: 30px;
+    height: 30px;
+    background: rgba(37, 43, 66, 1);
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+
+}
+
+.sizes {
+    display: flex;
+    justify-content: start;
+    margin: 14px 0px;
+
+}
+
+.girl__green__background {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.girl__white__background {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.girl__blue__background {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+.girl__brown__background {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.sizes-XL {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 29px;
+    border: 1px solid #E4E4E4;
+    margin-right: 19px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    color: #737373;
+}
+
+.sizes-L {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 29px;
+    border: 1px solid #E4E4E4;
+    margin-right: 19px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    color: #737373;
+}
+
+.sizes-M {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 29px;
+    border: 1px solid #E4E4E4;
+    margin-right: 19px;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    color: #737373;
+}
+
+.sizes-S {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 34px;
+    height: 29px;
+    border: 1px solid #E4E4E4;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    color: #737373;
+}
+
+.products {
+    height: 846px;
+}
+
+.products__title {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.coast-products {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #252B42;
+}
+
+.inv {
+    width: 240px;
+    height: 315px;
+
+}
+
+.begin__products {
+    display: flex;
+    justify-content: space-evenly;
+    width: 1080px;
+    margin-top: 50px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+
+.product__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+
+.future-image-shorts {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/shorts.png');
+    background-size: cover;
+    background-position-x: -15px;
+    background-position-y: 0px;
+}
+
+.future-image-black__jacket {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/black-jacket.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -90px;
+}
+
+.future-image-green__jacket {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/green-jacket.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -90px;
+}
+
+.future-image-white__jordan {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/white-jordan.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: 0px;
+}
+
+.future-image-brown__force {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/brown-force.png');
+    background-size: cover;
+
+}
+
+.future-image-red__dress {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/red-dress.png');
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -60px;
+}
+
+.future-image-white__sneakers {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/white-sneakers.png');
+    background-size: cover;
+}
+
+.future-image-rainbow__sneakers {
+    width: 240px;
+    height: 180px;
+    background: url('../assets/products/rainbow-sneakers.png');
+    background-size: cover;
+
+}
+
+.products__half {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1080px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-left: 180px;
+    margin-right: 180px;
+    width: 1080px;
+}
+
+
+.product__title {
+    text-align: center;
+}
+
+
+.blog {
+    height: 718px;
+
+}
+
+.blog__title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #252B42;
+}
+
+
+.blog1 {
+    width: 331px;
+    height: 514px;
+}
+
+.blog__description {
+    padding-left: 28px;
+}
+
+.blog__data {
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 29px;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #BDBDBD;
+}
+
+.blog__description__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    color: #252B42;
+}
+
+.blog__description__subtitle {
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 18px;
+    margin-bottom: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #858585;
+}
+
+.link__blog__text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #8EC2F2;
+}
+
+
+
+.blog__center {
+    width: 331px;
+    height: 514px;
+}
+
+.blog__end {
+    width: 331px;
+    height: 514px;
+}
+
+.bloger {
+    width: 1073px;
+    margin-top: 110px;
+    margin-bottom: 34px;
+    margin-right: 183.5px;
+    margin-left: 183.5px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.blog__image__pc {
+    width: 331px;
+    height: 202px;
+    background: url('../assets/blog/pc.png');
+    background-size: cover;
+}
+
+.blog__image__ballon {
+    width: 331px;
+    height: 202px;
+    background: url('../assets/blog/ballon.png');
+    background-size: cover;
+}
+
+
+.blog__image__hats {
+    width: 331px;
+    height: 202px;
+    background: url('../assets/blog/hats.png');
+    background-size: cover;
+}
+
+.blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-evenly;
+}
+
+
+.link__blog {
+    margin-top: 28px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.shop {
+    height: 566px;
+    background: #313958;
+}
+
+.shop__title {
+    padding-top: 46px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+    color: #FFFFFF;
+}
+
+.shops {
+    width: 1440px;
+    height: 249px;
+    margin-top: 59px;
+    margin-bottom: 135px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.shop__image__china__girl {
+    width: 349px;
+    height: 249px;
+    background: url('../assets/products/china-girl.png');
+    border-radius: 10%;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -110px;
+}
+
+.shop__image__girl__with__glasses {
+    width: 349px;
+    height: 249px;
+    background: url('../assets/products/girl-with-glasses.png');
+    border-radius: 10%;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -110px;
+}
+
+.shop__image__brown__background__with__girl {
+    width: 349px;
+    height: 249px;
+    background: url('../assets/products/brown-background-with-girl.png');
+    border-radius: 10%;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -110px;
+}
+
+.shop__image__with__white__background {
+    width: 349px;
+    height: 249px;
+    background: url('../assets/products/girl-in-white-dress.png');
+    border-radius: 10%;
+    background-size: cover;
+    background-position-x: 0px;
+    background-position-y: -110px;
+
+}
+
+
+.pagination__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+    margin-left: 17px;
+    margin-bottom: 171px;
+    margin-right: 183px;
+    width: 119px;
+    height: 64px;
+    border: 2px solid rgba(255, 255, 255, 1);
+    background: linear-gradient(to left, black -15%, transparent 90%);
+    text-align: center;
+    border-radius: 10%;
+}
+
+
+.circles {
+    width: 199.02px;
+    height: 41.02px;
+    padding-bottom: 69px;
+    margin-right: 620px;
+    margin-left: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+.circle__shop__with-navigation {
+    width: 41.02px;
+    height: 41.02px;
+    border: 0.7px solid rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    background: url('../assets/footer/navigate-next.png') no-repeat;
+    background-color: rgba(222, 222, 222, 0.2);
+    background-position: center;
+}
+
+.circle__shop__blue {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(72, 170, 255, 1);
+}
+
+.circle__shop__grey {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.circle__shop__grey__right {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.circle__shop__with-navigation__blue {
+    width: 41.02px;
+    height: 41.02px;
+    border-radius: 50%;
+    background: url('../assets/footer/ic_round-navigate-next.png') no-repeat center;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+    height: 148px;
+    background-color: rgba(37, 43, 66, 1);
+}
+
+a.selected {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+
+.footer__nav {
+    padding-top: 35px;
+    padding-left: 27px;
+    width: 647px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 28px;
+    color: #BDBDBD;
+}
+
+.links {
+    height: 41px;
+    width: 41px;
+}
+
+.networks {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    height: 41px;
+    width: 171px;
+    margin: auto;
+    text-align: center;
+    background: url('../assets/footer/social-media.png') no-repeat center;
+    background-size: cover;
+}
+
+.facebook {
+    background-position: 100px;
+}
+
+.twitter {
+    background-position: -1189px;
+}
+
+.google {
+    background-position: -90px;
+}
